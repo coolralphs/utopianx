@@ -169,14 +169,13 @@ body {
 .contact {
   padding: 40px 20px;
   text-align: center;
-  /* Removed gray background */
-  background: none; /* Or you can add a gradient like the hero if you want */
+  background: none; /* transparent, no gray */
 }
 
 .contact h2 {
   font-size: 2rem;
   margin-bottom: 10px;
-  color: #333; /* Adjust text color for readability */
+  color: #333;
 }
 
 .contact p {
@@ -185,7 +184,6 @@ body {
   color: #555;
 }
 
-/* Stack buttons vertically */
 .social-buttons {
   display: flex;
   flex-direction: column;
@@ -202,7 +200,7 @@ body {
   padding: 14px 28px;
   border-radius: 8px;
   font-weight: bold;
-  width: 220px; /* Fixed width for uniform buttons */
+  width: 220px;
   transition: transform 0.2s, opacity 0.2s;
 }
 
@@ -212,9 +210,8 @@ body {
 }
 
 .social-icon {
-  width: 20px;
-  height: 20px;
   margin-right: 10px;
+  font-size: 20px;
 }
 
 /* Brand colors */
