@@ -166,6 +166,49 @@ body {
   }
 }
 
+/* Connect With Us Section */
+.contact {
+  padding: 40px 20px;
+  text-align: center;
+  background: #f0f0f5;
+}
+
+.contact h2 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+.contact p {
+  font-size: 1.1rem;
+  margin-bottom: 20px;
+}
+
+.social-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+.social-btn {
+  text-decoration: none;
+  color: white;
+  padding: 14px 28px;
+  border-radius: 8px;
+  font-weight: bold;
+  transition: transform 0.2s, opacity 0.2s;
+}
+
+.social-btn:hover {
+  transform: scale(1.05);
+  opacity: 0.9;
+}
+
+/* Brand colors */
+.social-btn.instagram { background: #E1306C; }
+.social-btn.facebook  { background: #3b5998; }
+.social-btn.threads   { background: #000000; }
+
 /* Footer */
 footer {
   text-align: center;
