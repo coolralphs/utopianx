@@ -166,42 +166,55 @@ body {
   }
 }
 
-/* Connect With Us Section */
 .contact {
   padding: 40px 20px;
   text-align: center;
-  background: #f0f0f5;
+  /* Removed gray background */
+  background: none; /* Or you can add a gradient like the hero if you want */
 }
 
 .contact h2 {
   font-size: 2rem;
   margin-bottom: 10px;
+  color: #333; /* Adjust text color for readability */
 }
 
 .contact p {
   font-size: 1.1rem;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
+  color: #555;
 }
 
+/* Stack buttons vertically */
 .social-buttons {
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  align-items: center;
   gap: 15px;
-  flex-wrap: wrap;
 }
 
 .social-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   text-decoration: none;
   color: white;
   padding: 14px 28px;
   border-radius: 8px;
   font-weight: bold;
+  width: 220px; /* Fixed width for uniform buttons */
   transition: transform 0.2s, opacity 0.2s;
 }
 
 .social-btn:hover {
   transform: scale(1.05);
   opacity: 0.9;
+}
+
+.social-icon {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
 }
 
 /* Brand colors */
